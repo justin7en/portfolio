@@ -17,7 +17,7 @@ import { ModeToggle } from "@/components/modeToggle"
 export function NavMenu(){
   return(
     <NavigationMenu>
-      <NavigationMenuList className="flex flex-row w-screen">
+      <NavigationMenuList className="flex flex-row w-screen p-2">
         <NavigationMenuItem className="grow flex">
           <Link href="/" className="text-xl font-bold w-1/3 flex">
             <div className="mx-auto">
@@ -37,7 +37,7 @@ export function NavMenu(){
             </Link>
           </NavigationMenuItem>
         </div>
-        <NavigationMenuItem className="pr-2">
+        <NavigationMenuItem className="pr-2 mt-1">
           <ModeToggle/>
         </NavigationMenuItem>
       </NavigationMenuList>
