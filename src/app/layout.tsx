@@ -20,8 +20,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <NavMenu />
-          {children}
+          <div className="h-screen flex flex-col">
+            <div className="h-fit">
+              <NavMenu />
+            </div>
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
