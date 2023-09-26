@@ -28,11 +28,38 @@ export function InfoBoard() {
           </div>
           <div>
             {activeItem[0] ? (
-              <p>My Name is Justin and I&rsquo;m a 23 year old student.</p>
+              <p>
+                My Name is Justin and I&rsquo;m a 23 year old student. <br/>
+                I am currently at the end of my bachelor&rsquo;s degree in applied computer science and looking for a job in web development.
+              </p>
             ) : activeItem[1] ? (
-              <p>Moin2</p>
+              <>
+                <section>
+                  <h2 className="text-amber-400">Frontend skills</h2>
+                  <ul className="indent-2">
+                    <li>- NextJS 13</li>
+                    <li>- Tailwindcss</li>
+                    <li>- shadcn (component library)</li>
+                  </ul>
+                </section>
+                <section>
+                  <h2 className="text-amber-400">Backend skills</h2>
+                  <ul className="indent-2">
+                    <li>- Basics with firebase</li>
+                    <li>- SQL</li>
+                  </ul>
+                </section>
+              </>
+              
             ) : (
-              <p>Moin3</p>
+              <section>
+                <h2 className="text-amber-400">Can be contacted at</h2>
+                <ul className="indent-2">
+                  <li>- dev.justin@icloud.com</li>
+                  <li><a href="https://github.com/justin7en" target="_blank">- GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/justin-e-58902b271/" target="_blank">- LinkedIn</a></li>
+                </ul>
+              </section>
             )}
           </div>
         </div>
