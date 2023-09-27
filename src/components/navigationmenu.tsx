@@ -20,7 +20,7 @@ export function NavMenu(){
 
   function checkRoute(route: string) {
     if (route === currentRoute) {
-      return "border-b-4 border-amber-400"
+      return "border-b-4 border-highlight"
     }else{
       return ""
     }

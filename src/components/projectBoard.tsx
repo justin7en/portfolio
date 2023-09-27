@@ -9,7 +9,7 @@ interface ProjectContent {
 
 export function ProjectBoard ({project}: {project: ProjectContent}){
   return (
-    <div className="p-2 rounded-sm bg-blue-600">
+    <div className="p-2 rounded-sm bg-board">
       <div className="flex flex-row space-x-2">
         <div className="pt-1">
           <Image 
@@ -20,7 +20,7 @@ export function ProjectBoard ({project}: {project: ProjectContent}){
           />
         </div>
         <div className="flex flex-col">
-          <h2 className="text-lg text-amber-400">
+          <h2 className="text-lg text-highlight">
             {project.heading}
           </h2>
           <p className="grow">
