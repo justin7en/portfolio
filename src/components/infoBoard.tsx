@@ -56,8 +56,18 @@ export function InfoBoard() {
                 <h2 className="text-amber-400">Can be contacted at</h2>
                 <ul className="indent-2">
                   <li>- dev.justin@icloud.com</li>
-                  <li><a href="https://github.com/justin7en" target="_blank">- GitHub</a></li>
-                  <li><a href="https://www.linkedin.com/in/justin-e-58902b271/" target="_blank">- LinkedIn</a></li>
+                  <li>
+                    -&nbsp;
+                    <a href="https://github.com/justin7en" target="_blank" className="underline underline-offset-2">
+                      GitHub
+                    </a>
+                  </li>
+                  <li>
+                    -&nbsp;
+                    <a href="https://www.linkedin.com/in/justin-e-58902b271/" target="_blank" className="underline underline-offset-2">
+                      LinkedIn
+                    </a>
+                  </li>
                 </ul>
               </section>
             )}
